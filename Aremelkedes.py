@@ -1,4 +1,4 @@
-crntPrice: int = int(input("Az alkatresz jelenlegi ara: "))
-priceHike: float = float(input("Aremeles (szazalekban): "))
+crntPrice: int = int(input("Az alkatrész jelenlegi ára: "))
+priceHike: float = float(input("Áremeles (százalékban): "))
 
-print(f"Az alkatresz uj ara: {int(crntPrice + (crntPrice * (priceHike / 100)))}")
+print(f"Az alkatrész új ára: {int(crntPrice + (crntPrice * (priceHike / 100)))}")
